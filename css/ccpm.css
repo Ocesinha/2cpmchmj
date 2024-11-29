@@ -1,0 +1,63 @@
+body{
+    scroll-behavior: smooth;
+}
+
+
+.bg{
+    background-color: #00528a;
+    height: 100vh; /* Altura fixa conforme sua necessidade */
+    width: 100vw; /* Usa 100vw para o fundo azul preencher toda a tela */
+    border-radius: 0;
+    z-index: -1; /* Mantém no plano de fundo */
+    overflow: scroll;
+}
+.ccpm{
+    opacity: 0.5;
+}
+.header-ccpm{
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+.header-ccpm h1{
+    color: white;
+}
+
+.header-cpm{
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+.header-cpm h2{
+    color: white;
+    font-size: 2em;
+}
+
+.left{
+    margin-inline: auto;
+    display: flex;
+}
+.brasao-ccpm{
+    margin-top: 2rem;
+    margin-inline: auto;
+    width: 70vw;
+    height: auto;
+}
+.text-ccpm{
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+.text-ccpm p{
+    color: #1696d1;
+    font-size: 15px;
+}
+.pelotao-ccpm{
+    display: flex;
+}
+
+
+.pelotao-ccpm img{
+    margin-top: 2rem;
+    margin-inline: auto;
+    width: 85vw;
+    height: auto;
+    border-radius: 5px;
+}

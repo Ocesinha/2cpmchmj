@@ -1,0 +1,108 @@
+/* Estilização global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Garante que padding/border não afete as dimensões */
+    font-family: "Poppins", sans-serif;
+
+}
+body{
+    scroll-behavior: smooth;
+}
+
+
+
+a:active{
+    opacity: 0.5;
+}
+
+html, body {
+    width: 100%; /* Garante que o body ocupe toda a largura */
+    height: 100%; /* Garante que o body ocupe toda a altura */
+    overflow-x: hidden; /* Evita qualquer rolagem horizontal */
+}
+.bg {
+    background-color: #00528a;
+    height: 45rem; /* Altura fixa conforme sua necessidade */
+    width: 100vw; /* Usa 100vw para o fundo azul preencher toda a tela */
+    border-radius: 0px 0px 20px 20px;
+    z-index: -1; /* Mantém no plano de fundo */
+}
+
+
+/* Outros elementos */
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-inline: 10px;
+}
+.logo header h1 {
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+}
+.main-nav {
+    display: flex;
+    background-color: white;
+    padding-block: 20px;
+}
+.main-ul {
+    display: flex;
+    list-style: none;
+    margin-inline: auto;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+.main-ul li {
+    display: flex;
+    text-decoration: none;
+    margin-inline: 15px;
+    text-transform: none;
+    align-items: center;
+    justify-content: center;
+}
+.main-ul li a {
+    text-decoration: none;
+    color: #0895d3;
+    font-weight: 600;
+}
+.logoimg {
+    width: 22rem;
+    height: auto;
+    opacity: 0.2;
+}
+.imagelogo {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.btn-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.btn-div button {
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+}
+.btn-div button a {
+    font-weight: 500;
+    font-size: 15px;
+    color: #0895d3;
+    text-decoration: none;
+}
+button{
+    transition: 1s ease;
+}
+button:active{
+    background-color: rgba(0, 82, 138, 0.5);
+}
+button:hover{
+    background-color: rgb(114, 187, 255);
+    cursor: pointer;
+}
