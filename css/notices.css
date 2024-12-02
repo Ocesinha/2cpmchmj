@@ -1,0 +1,10 @@
+.notices-top{
+    display: flex;
+}
+
+.notices{
+    display: flex;
+    margin-inline: 1.5rem;
+    flex-direction: column;
+    margin-top: 1rem;
+}

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/hero.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/notices.css">
     <link rel="shortcut icon" href="assets/logocpm.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,30 +18,48 @@
 <body>
 
     <div class="main" id="home">
-        <div class="bg">
-        <nav class="main-nav">
-            <ul class="main-ul">
-                <li><a class="home" href="index.html">Inicio</a></li>
-                <li><a class="ccpm" href="ccpm.html">CCPM</a></li>
-                <li><a class="pelotoes" href="#">Pelotões</a></li>
-                <li><a class="eventos" href="#">Eventos</a></li>
-            </ul>
-        </nav>
 
+      <div class="menu-top">
+      <section class="menu">
+        <button class="btn-options"> <img class="menu-btn" src="assets/menuop.png" alt="options" title="options">   </button>
+      </section>
 
-        <section class="logo">
-            <header><h1>Bem-Vindo(a) à Página de Informações sobre o 2ºCPM-CHMJ!</h1></header>
-        </section>
+      <section id="options">
+        <ul class="options-ul">
+          <li><a class="home" href="index.html">Inicio</a></li>
+          <li><a class="ccpm" href="#">Esportes</a></li>
+          <li><a class="pelotoes" href="#">Pelotões</a></li>
+          <li><a class="eventos" href="#">Grêmio Estudantil</a></li>
+          <li><a class="eventos" href="#">Biblioteca Virtual</a></li>
+          <li><a class="eventos" href="#">Imagens e Mídias</a></li>
+          <li><a class="eventos" href="#">Informações</a></li>
+          <li><a class="eventos" href="#">Profissionais</a></li>
+        </ul>
+      </section>
 
-        <div class="imagelogo">
-        <img class="logoimg" src="assets/logocpm.png" alt="cpmlogo">
+        <div class="main-nav">
+         <a href="index.html"> <img class="cpm-max" src="assets/cpm.png" alt="2cpmchmjlogo" title="2cpmchmjlogo"> </a>
         </div>
 
-        <div class="btn-div">
-            <button><a href="#hero">Sobre a Escola</a></button>
-        </div>
+        <section class="menu-top-options">
+          <nav>
+        <ul class="main-ul">
+          <li><a class="home" href="index.html">Inicio</a></li>
+          <li><a class="ccpm" href="ccpm.html">CCPM</a></li>
+          <li><a class="pelotoes" href="#">Pelotões</a></li>
+          <li><a class="eventos" href="#">Eventos</a></li>
+      </ul>
+    </nav>
+
+    </section>
+
+      </div>
+
+
+
+
+
     </div>
-</div>
     <div class="hero" id="hero">
         
         <section class="details">
@@ -49,10 +68,17 @@
            <a href="https://www.ccpm.ce.gov.br/regulamentos-dos-colegios-da-pmce/" target="_blank"><button class="calender"><img src="assets/prova.png"><p>Regulamentos</p></button></a> 
         </section>
 
-
-
-
     </div>
+
+<div class="notices-top">
+
+<section class="notices">
+  <header class="info">Nóticias!</header>
+</section>
+
+
+</div>
+
 
     <footer>
         <div class="footer-container">
@@ -81,6 +107,6 @@
 
 
     <a href="#home"><button class="return">  ^  </button></a>
-
+<script src="js/script.js"></script>
 </body>
 </html>

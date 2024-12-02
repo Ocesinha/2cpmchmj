@@ -6,10 +6,12 @@
     font-family: "Poppins", sans-serif;
 
 }
+
+
+
 body{
     scroll-behavior: smooth;
 }
-
 
 
 a:active{
@@ -21,31 +23,46 @@ html, body {
     height: 100%; /* Garante que o body ocupe toda a altura */
     overflow-x: hidden; /* Evita qualquer rolagem horizontal */
 }
-.bg {
-    background-color: #00528a;
-    height: 45rem; /* Altura fixa conforme sua necessidade */
-    width: 100vw; /* Usa 100vw para o fundo azul preencher toda a tela */
-    border-radius: 0px 0px 20px 20px;
-    z-index: -1; /* Mantém no plano de fundo */
-}
 
 
 /* Outros elementos */
-.logo {
+
+.cpm-max{
+    width: 23rem;
+    height: auto;
+}
+.menu-top{
+    background: #00528a;
+
+}
+.menu-btn{
+    width: 2rem;
+    height: auto;
+}
+.menu-top button{
+    background: none;
+    border: none;
+    margin-inline: 1rem;
+    margin-top: 1rem;
+}
+.menu-top-options{
+    background-color: rgba(8, 149, 211,0.7);
+    padding: 0.5rem;
+}
+.main-ul{
     display: flex;
-    justify-content: center;
-    margin-top: 3rem;
-    margin-inline: 10px;
+    justify-content: space-between;
+    gap: 2rem;
 }
-.logo header h1 {
+.main-ul li a{
     color: white;
-    font-weight: 600;
-    font-size: 25px;
+    font-weight: 500;
 }
+
 .main-nav {
     display: flex;
-    background-color: white;
-    padding-block: 20px;
+    padding-bottom: 0.5rem;
+    justify-content: center;
 }
 .main-ul {
     display: flex;
@@ -55,54 +72,31 @@ html, body {
     align-items: center;
     justify-content: center;
 }
-.main-ul li {
-    display: flex;
-    text-decoration: none;
-    margin-inline: 15px;
-    text-transform: none;
-    align-items: center;
-    justify-content: center;
+#options{
+    background-color: white;
+    padding: 1rem;
+    transition: 1.5s ease;
+    display: none;
 }
-.main-ul li a {
-    text-decoration: none;
-    color: #0895d3;
+
+#options ul{
+    list-style: none;
+}
+#options a{
+    color: #00528a;
     font-weight: 600;
 }
-.logoimg {
-    width: 22rem;
-    height: auto;
-    opacity: 0.2;
-}
-.imagelogo {
-    display: flex;
-    justify-content: center;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-}
-.btn-div {
-    display: flex;
-    justify-content: center;
-    margin-top: 3rem;
-}
-.btn-div button {
-    padding: 15px;
-    border: none;
-    border-radius: 15px;
-    background-color: white;
-}
-.btn-div button a {
-    font-weight: 500;
-    font-size: 15px;
-    color: #0895d3;
-    text-decoration: none;
-}
+
 button{
     transition: 1s ease;
 }
-button:active{
+.hero button:active{
     background-color: rgba(0, 82, 138, 0.5);
 }
-button:hover{
+.hero button:hover{
     background-color: rgb(114, 187, 255);
+    cursor: pointer;
+}
+button:hover{
     cursor: pointer;
 }
